@@ -1,72 +1,37 @@
 ﻿using System;
 
-
-namespace myConsoleProject.cs
+namespace MathandComparison
 {
     class Program
     {
-        static void Main()
+        static void Main(string[] args)
         {
-            //this is a simple program
-            Console.WriteLine("the tech academy");
-            Console.WriteLine("Student Daily Report");
-            Console.WriteLine("Enter your name here: ");
-            string yourname = Console.ReadLine();
-            Console.WriteLine("hello, " + yourname + "!");
-            Console.WriteLine("You are currenly on the C# course");
+            Console.WriteLine("Anonymous Income Comparison Program");
             Console.ReadLine();
-            Console.WriteLine("On page 163");
+            Console.WriteLine("Person 1");
+            Console.WriteLine("Hourly rate: 16.00" );
+            Console.WriteLine("Hours worked: 30");
             Console.ReadLine();
-            Console.WriteLine("Do you need help with anything?: ");
+            int num1 = 480;
+            int num2 = 26;
+            int product1 = num1 * num2;
+            Console.WriteLine("Person 1 annual salary: " + product1 );
+            Console.ReadLine();
+            Console.WriteLine("Person 2");
+            Console.WriteLine("Hourly rate: 18.00");
+            Console.WriteLine("Hours worked: 35");
+            Console.ReadLine();
+            int num3 = 630;
+            int num4 = 26;
+            int product2 = num3 * num4;
+            Console.WriteLine("Person 2 annual salary: " + product2);
+            Console.ReadLine();
+            Console.WriteLine("Annual salary of Person 1: 12,480");
+            Console.WriteLine("Annual salary of Person 2: 16,380");
+            Console.ReadLine();
+            Console.WriteLine("Does Person 1 make more money than Person 2?");
             string TorF = Console.ReadLine();
-            Console.WriteLine( TorF  + " ,if true an instructor will reach out soon!" );
-            Console.ReadLine();
-            Console.WriteLine("Was ther any positive experience you'd like to share?: ");
-            string question3Awnser = Console.ReadLine();
-            Console.WriteLine(question3Awnser + ",  Thank you for the feedback!");
-            Console.ReadLine();
-            Console.WriteLine("Is there any feedback youd like to provide? Please be specific: ");
-            string question4Awnser = Console.ReadLine();
-            Console.WriteLine(question4Awnser + " Thank you for the feedback!");
-            Console.ReadLine();
-            Console.WriteLine("How many hours did you study?: ");
-            string question5Awnser = Console.ReadLine();
-            Console.WriteLine("Good Job on wokring " + question5Awnser + " hours today!");
-            Console.ReadLine();
-            Console.WriteLine("Thank you for your answers. An Instructor will respond to this shortly. Have a great day!: ");
-            Console.ReadLine();
-
-
-
-
-
-
-
-            //Console.WriteLine("What is your favorite number?");
-            //string favoriteNumber = Console.ReadLine();
-            //int favNum = Convert.ToInt32(favoriteNumber);
-            //int total = favNum + 5;
-            //Console.WriteLine("your favorite number plus 5 is: " + total);
-            //Console.ReadLine();
-
-            //bool isStudying = false;
-            //byte hoursWorked = 42;
-            //sbyte currentTemperture = -23;
-            //char questionMark = '\u2103';
-
-            //decimal moneyIntheBank = 100.5m;
-
-            //double heightincentimeters = 4354.8456;
-
-            //float secondsLeft = 2.62f;
-
-            //int currentAge = 30;
-            //string yearsOld() = currentAge.ToString();
-
-            //Console.WriteLine(questionMark);
-            //Console.ReadLine();
-
-
+            Console.WriteLine(TorF + "  Person 2 makes more money");
         }
     }
 }
